@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="nice to meet you!" />
+    <title>Hey!</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/me.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/me.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/me.png">
+</head>
+
+<body>
+    <div>
+        <div style="padding: 5px; margin: 25px 0px -20px 25px">
+            <h4><span class="title">Swe Swe Mar Soe</span></h4>
+        </div>
+        <ul>
+            <li><a href="https://medium.com/@swesweucsy">Writings/Random Posts</a>
+            <li><a href="https://www.instagram.com/_stella.photos/">Photos</a>
+            <li><a title="@swesweucsy" href="https://github.com/swesweucsy">Code</a>
+            <li><a title="books!" href="#">Books</a>
+            <li><a title="work" href="#">Work</a>
+        </ul>
+    </div>
+    <noscript id="deferred-styles">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <style type="text/css">
+            body {
+                font-size: 16pt;
+                font-family: 'Inter', sans-serif;
+            }
+
+            a:visited {
+                text-decoration: none;
+            }
+
+            li {
+                list-style: none;
+                font-size: 20px;
+            }
+
+            li:before {
+                content: "·";
+                font-size: 120px;
+                vertical-align: middle;
+                line-height: 35px;
+            }
+        </style>
+    </noscript>
+    <script>
+        var loadDeferredStyles = function() {
+          var addStylesNode = document.getElementById("deferred-styles");
+          var replacement = document.createElement("div");
+          replacement.innerHTML = addStylesNode.textContent;
+          document.body.appendChild(replacement)
+          addStylesNode.parentElement.removeChild(addStylesNode);
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+        else window.addEventListener('load', loadDeferredStyles);
+      </script>
+</body>
+
+</html>
