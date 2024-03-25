@@ -1,0 +1,16 @@
+{
+ "name": "Stella",
+ "icons": [
+  {
+   "src": "\/android-icon-36x36.png",
+   "sizes": "36x36",
+   "type": "image\/png",
+   "density": "0.75"
+  }
+ ],
+  "lang": "en-US",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "white"
+}

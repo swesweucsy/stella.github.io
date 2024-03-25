@@ -1,0 +1,9 @@
+{
+  "name": "Swe Swe Mar Soe",
+  "short_name": "Stella",
+  "lang": "en-US",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "white"
+}
