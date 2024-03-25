@@ -10,7 +10,7 @@ Updated Portfolio can be seen here
 <br />
 ## Pagespeed Score
 
-<img src='' />
+<img src='https://github.com/https://github.com/swesweucsy/swesweucsy.github.io/blob/master/pagespeed.png?raw=true' />
 <br />
 
 `No copyright issues.
